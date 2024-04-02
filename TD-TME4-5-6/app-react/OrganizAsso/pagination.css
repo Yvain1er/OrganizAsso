@@ -1,0 +1,92 @@
+form{
+  display: grid;
+  grid-template-columns: 150px 150px;
+}
+
+h2{
+  text-align: center;
+  color: rgb(66, 66, 240);
+  text-shadow: 1px 1px 0px black
+
+}
+
+form{
+  border: medium solid black;
+  margin: auto;
+  padding: 10px;
+  width: 300px
+}
+input{
+  margin-bottom: 1.5em;
+}
+
+.MainPage {
+  font-family: Arial, sans-serif;
+  background-color: #e4e3e3;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: small;
+}
+
+.logo img{
+  flex: 1;
+  border: thick solid rgb(24, 23, 23);
+  width: 150px;
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.logo-text {
+  font-family:cursive;
+  font-size: 24px ; 
+}
+
+
+.user-profile {
+  margin-left: 20px; 
+  border: thick solid bisque;
+}
+
+.logout {
+  margin-left: 20px; 
+}
+
+.content {
+  padding: 20px;
+}
+
+
+.forums {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.closed-forum{
+  flex: 1;
+  margin-right: 20px; 
+  background-color: rgb(182, 159, 130);
+}
+
+.opened-forum {
+  flex: 1;
+  margin-right: 20px; 
+  background-color: bisque;
+}
+
